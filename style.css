@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+header{
+    background-color: #181818;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    background-color: greenyellow;
+    
+}
+
+body{
+    background-color: bisque;
+    text-align: center;
+}
+
+h1{color: aqua; }
+
+.banner{
+    
+    background-image: url('https://elmistihostels.com/blog/wp-content/uploads/2017/01/rio-de-janeiro-landscape.jpg');
+    width: 1500px;
+    height: 720px;
+    border: 5px solid  green;
+    border-radius: 25px;
+    padding: 2%;
+    margin: 20px;
+    box-sizing: border-box;   
+    margin-left: 200px;
+    
+}
+.videos {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+.videos {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+.video {
+
+    width: 30%;
+    height: fit-content;
+    margin-top: 24px;
+    padding: 32px 12px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    color: white;
+    color: rgba(255, 255, 255, 0.4); font-size: 12px;
+
+}
+
+.video:hover {
+
+    transform: scale(1.02);
+    filter: brightness(105%);
+
+}
+
+.thumbnail {
+
+    width: 100%;
+
+}
+
+.video-time {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    float: right;
+    padding: 8px 12px;
+    display: block;
+    transform: translateY(-35px);
+
+}
+
+.video-title {
+
+    margin: 8px 0 12px;
+    color: white;
+
+}
+
+.video-description {
+
+    color: rgba(255, 255, 255, 0.897);
+    margin: 0;
+
+}
+
+.video-views {
+
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 12px;
+    display: block;
+
+}
+
+.video-date {
+
+    text-align: right;
+    display: block;
+    color: rgba(255, 255, 255, 0.4); font-size: 12px;
+
+}
+#div1{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    padding: 1.5px;
+    
+    
+    
+  }
+  #div2{
+    position: absolute;
+    top: 25px;
+    right:600px;
+    padding: 1.5px;
+    
+}
