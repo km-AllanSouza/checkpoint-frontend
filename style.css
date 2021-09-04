@@ -68,18 +68,6 @@ h1{color: aqua; }
 
 }
 
-.video-time {
-
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: fit-content;
-    float: right;
-    padding: 8px 12px;
-    display: block;
-    transform: translateY(-35px);
-
-}
-
 .video-title {
 
     margin: 8px 0 12px;
@@ -94,30 +82,13 @@ h1{color: aqua; }
 
 }
 
-.video-views {
-
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 12px;
-    display: block;
-
-}
-
-.video-date {
-
-    text-align: right;
-    display: block;
-    color: rgba(255, 255, 255, 0.4); font-size: 12px;
-
-}
 #div1{
     position: absolute;
     top: 20px;
     left: 600px;
-    padding: 1.5px;
-    
-    
-    
+    padding: 1.5px;   
   }
+
   #div2{
     position: absolute;
     top: 25px;
