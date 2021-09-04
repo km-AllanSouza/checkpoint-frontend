@@ -44,19 +44,7 @@ h1{color: aqua; }
 
 }
 
-.videos {
-
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    margin: 0 auto;
-    gap: 12px;
-
-}
-
 .video {
-
     width: 30%;
     height: fit-content;
     margin-top: 24px;
@@ -65,7 +53,6 @@ h1{color: aqua; }
     cursor: pointer;
     color: white;
     color: rgba(255, 255, 255, 0.4); font-size: 12px;
-
 }
 
 .video:hover {
